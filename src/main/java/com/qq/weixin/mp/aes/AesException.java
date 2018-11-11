@@ -1,7 +1,6 @@
-﻿package com.qq.weixin.mp.aes;
+package com.qq.weixin.mp.aes;
 @SuppressWarnings("serial")
 public class AesException extends Exception {
-
 	public final static int OK = 0;
 	public final static int ValidateSignatureError = -40001;
 	public final static int ParseXmlError = -40002;

@@ -64,9 +64,8 @@
             <manifest>
                 <mainClass>ccom.ipacs.qywx.pls.PlsApplication</mainClass>
                 <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
+                <classpathPrefix>lib/</classpathPrefix>
             </manifest>
-
         </archive>
         <classesDirectory>
         </classesDirectory>

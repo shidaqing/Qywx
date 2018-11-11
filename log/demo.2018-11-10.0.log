@@ -1,0 +1,11 @@
+2018-11-10 15:58:12,112 INFO (StartupInfoLogger.java:50)- Starting PlsApplication on PC201506101604 with PID 2300 (E:\01-java\pls\target\classes started by Administrator in E:\01-java\pls)
+2018-11-10 15:58:12,116 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-10 15:58:12,118 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-10 15:58:13,680 INFO (StartupInfoLogger.java:59)- Started PlsApplication in 1.968 seconds (JVM running for 2.297)
+2018-11-10 15:58:38,857 INFO (TestController.java:20)- wxHttpRequst.msg_signature: ASDFQWEXZCVAQFASDFASDFSS
+2018-11-10 15:58:38,858 WARN (TestController.java:21)- wxHttpRequst.msg_signature: ASDFQWEXZCVAQFASDFASDFSS
+2018-11-10 15:58:38,858 ERROR (TestController.java:22)- wxHttpRequst.msg_signature: ASDFQWEXZCVAQFASDFASDFSS
+2018-11-10 15:58:38,858 ERROR (TestController.java:25)- wxHttpRequst.msg_signature: ASDFQWEXZCVAQFASDFASDFSS
+2018-11-10 15:58:38,858 ERROR (TestController.java:25)- wxHttpRequst.msg_signature: ASDFQWEXZCVAQFASDFASDFSS
+2018-11-10 15:58:38,858 ERROR (TestController.java:25)- wxHttpRequst.msg_signature: ASDFQWEXZCVAQFASDFASDFSS
+2018-11-10 15:58:38,858 ERROR (TestController.java:25)- wxHttpRequst.msg_signature: ASDFQWEXZCVAQFASDFASDFSS

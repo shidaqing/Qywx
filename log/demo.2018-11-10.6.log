@@ -1,0 +1,8 @@
+2018-11-10 21:00:17,052 INFO (StartupInfoLogger.java:59)- Started PlsApplicationTests in 1.894 seconds (JVM running for 2.588)
+2018-11-10 21:01:00,502 INFO (StartupInfoLogger.java:50)- Starting PlsApplicationTests on PC201506101604 with PID 16772 (started by Administrator in E:\01-java\pls)
+2018-11-10 21:01:00,503 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-10 21:01:00,505 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2018-11-10 21:01:01,931 INFO (StartupInfoLogger.java:59)- Started PlsApplicationTests in 1.751 seconds (JVM running for 2.475)
+2018-11-10 21:54:43,486 INFO (StartupInfoLogger.java:50)- Starting PlsApplicationTests on PC201506101604 with PID 17568 (started by Administrator in E:\01-java\pls)
+2018-11-10 21:54:43,487 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-10 21:54:43,489 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

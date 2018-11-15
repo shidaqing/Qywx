@@ -74,30 +74,19 @@ public class TestController {
 					NodeList Content = root.getElementsByTagName("EventKey");
 					repMsg = "后台接收到点击事件：" + Content.item(0).getTextContent();
 					
-				}
-							 
-			 
+				}							 			 
 			 String sRespData = "<xml><ToUserName><![CDATA[ShiDaQing]]></ToUserName><FromUserName><![CDATA[wwad1f9f2028c52c5f]]></FromUserName><CreateTime>1348831860</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA["+repMsg+"]]></Content><MsgId>1234567890123456</MsgId><AgentID>1000003</AgentID></xml>";
-			 logger.info("返回的明文是： " + sRespData+"/n");
-			 
+			 logger.info("返回的明文是： " + sRespData+"/n");			 
 			  sEchoStr = wxcpt.EncryptMsg(sRespData, wxHttpRequst.timestamp, wxHttpRequst.nonce);
-			 logger.info("返回的密文是： " + sEchoStr+"/n");
-			 
-			 
-			 
+			 logger.info("返回的密文是： " + sEchoStr+"/n");			 			 			 
 		} catch (AesException | ParserConfigurationException | SAXException | IOException e) {
 			// TODO Auto-generated catch block			 
 			logger.error(e.getMessage());	
 			return e.getMessage() ;
-		}
-		
-		long endTime = System.currentTimeMillis();  
-		
-		float seconds = (endTime - startTime) ;  
-		
-		
-		logger.info("==================请求处理时长 : "+ seconds+"ms====================="+"/n");	
-		
+		}		
+		long endTime = System.currentTimeMillis();  		
+		float seconds = (endTime - startTime) ;  				
+		logger.info("==================请求处理时长 : "+ seconds+"ms====================="+"/n");			
 		return sEchoStr ;		 				
 	}	
 	
